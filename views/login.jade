@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+head
+
+body
+  h1
+    |Log In
+  h2= h2
+  p= message
+  form(action="/log" method="POST")
+    div(style="margin-bottom: 10px")
+      input(type="text" placeholder="e-mail" name="username")
+    div(style="margin-bottom: 10px")
+      input(type="password" placeholder="Password" name="pass")
+    button(type="submit")
+      |Log In
+

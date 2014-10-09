@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+
+  body
+    - each post in posts
+      h1
+        a(href="/posts/#{post.id}")= post.name
+      p= post.text
+      p= post.where
+      br
+    button
+      a(href="/posts/new")
+        |Create new post
+
+

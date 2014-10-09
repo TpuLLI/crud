@@ -1,0 +1,17 @@
+{
+  "name": "crud",
+  "version": "0.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.9.4",
+    "jade": "~1.7.0",
+    "path": "~0.4.9",
+    "node.js": "~0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

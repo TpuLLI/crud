@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+
+  body
+    form(method="post", name="newPost", action="/create_post")
+      input(type="text", placeholder="Post_name", name="name")
+      br
+      textarea(type="text", placeholder="Post_text", size="40", name="text")
+      br
+      input(type="date", placeholder="Post_where", name="where")
+      br
+      input(type="submit")
