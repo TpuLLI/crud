@@ -6,7 +6,9 @@
     "express": "~4.9.4",
     "jade": "~1.7.0",
     "path": "~0.4.9",
-    "node.js": "~0.0.0"
+    "node.js": "~0.0.0",
+    "body-parser": "~1.9.0",
+    "express-validator": "~2.6.0"
   },
   "devDependencies": {},
   "scripts": {
