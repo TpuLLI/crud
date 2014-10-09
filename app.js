@@ -28,13 +28,11 @@ app.post("/log", function(req, res) {
     if(req.body.username === userLogin[i].mail && req.body.pass === userLogin[i].pass) {
       res.redirect("posts");
     } else {
-      var errors = req.validationErrors();
-        res.render("login", {
-          h2: "Form Validation Example",
-          message: "Sorry, your mail or password is not correct! Please try again!",
-          errors: errors
-        });
-      }
+      res.render("login", {
+        h2: "Form Validation Example",
+        message: "Sorry, your mail or password is not correct! Please try again!",
+      });
+    }
       // res.end("Sorry, your mail or password is not correct! Please try again!");
   };
 
